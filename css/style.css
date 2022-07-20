@@ -353,7 +353,7 @@ header nav ul li a.active {
 /* SERVICES */
 .services {
     padding: 50px 0;
-    background: #f1f1f1;
+        
 }
 
 .services h2 {
@@ -425,16 +425,19 @@ header nav ul li a.active {
 
 .about {
     padding: 50px 0;
+    background: #f1f1f1;
 }
 
 .about h2 {
     font-size: 40px;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     position: relative;
     margin-bottom: 40px;
 }
-
+.about .sub{
+    text-align: center;
+}
 .about h2::before {
     content: '';
     position: absolute;
@@ -442,22 +445,45 @@ header nav ul li a.active {
     background: #09959f;
     width: 60px;
     height: 3px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .about .main-d{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    margin-top: 40px;
 }
 .about .main-d .left{
-    width: 48%;
+    width: 50%;
     
+}
+.about .main-d h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.about .main-d h3::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -7px;
+    width: 60px;
+    height: 2px;
+    background: #e60000;
+}
+.about .main-d .left img{
+    width: 100%;
 }
 .about .main-d .right{
     width: 48%;
+    padding-right: 162px;
 }
-
+.about .main-d p{
+    text-align: justify;
+    line-height: 23px;
+}
 /* enquiry form */
 
 .enquiry-form {
