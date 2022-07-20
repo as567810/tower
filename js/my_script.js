@@ -172,7 +172,7 @@ $(document).ready(function() {
     //     },
     //   });
 
-    var swiper = new Swiper(".our-team", {
+    var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         slidesPerGroup: 1,
         spaceBetween: 10,
@@ -187,8 +187,8 @@ $(document).ready(function() {
         },
 
         navigation: {
-            nextEl: ".our-team .swiper-button-next",
-            prevEl: ".our-team .swiper-button-prev",
+            nextEl: " .swiper-button-next",
+            prevEl: ".swiper-button-prev",
 
         },
 

@@ -328,12 +328,15 @@ header nav ul li a.active {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 100%;
 
 }
 
 .banner .seo_text h1 {
     font-size: 60px;
     color: #fff;
+    text-shadow: 0 5px 7px #343434;
+    text-transform: uppercase;
 }
 
 .banner .seo_text span {
@@ -350,6 +353,18 @@ header nav ul li a.active {
 
 }
 
+.banner .swiper-button-prev,
+.banner .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    background: #1f73bca6;
+    border-radius: 50%;
+    /* border: 1px solid #1f73bc; */
+}
+.banner .swiper-button-prev:after, .banner  .swiper-button-next:after {
+    font-size: 20px;
+    color: #fff;
+}
 /* SERVICES */
 .services {
     padding: 50px 0;
