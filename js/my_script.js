@@ -204,6 +204,38 @@ $(document).ready(function() {
         }
     });
 
+    var swiper = new Swiper(".Mys2", {
+        slidesPerView: 6,
+        slidesPerGroup: 1,
+        spaceBetween: 10,
+        loop: true,
+        freeMode: false,
+        autoPlay: true,
+        speed: 1000,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+
+        },
+
+        navigation: {
+            nextEl: " .swiper-button-next",
+            prevEl: ".swiper-button-prev",
+
+        },
+
+        pagination: {
+            // el: ".swiper-pagination",
+            // clickable: true,
+        },
+        // breakpoints: {
+        //     500: {
+        //         slidesPerView: 1,
+        //     },
+
+        // }
+    });
+
     var swiper = new Swiper(".myCl", {
         slidesPerView: 3,
         slidesPerGroup: 1,

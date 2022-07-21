@@ -993,6 +993,25 @@ header nav ul li a.active {
     color: rgb(31, 31, 31);
     font-weight: 400;
 }
+.clients{
+    padding: 50px 0;
+    text-align: center;
+}
+.clients h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.clients h2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -7px;
+    width: 50px;
+    height: 2px;
+    background: #EE7752;
+}
 /***********************footer *****************/
 
 footer {
