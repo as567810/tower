@@ -1012,6 +1012,36 @@ header nav ul li a.active {
     height: 2px;
     background: #EE7752;
 }
+.brochure{
+    padding: 30px 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(0, 50, 189), rgba(0, 110, 212, 0.603));
+    color: #fff;
+}
+
+.brochure h2{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.brochure .btn{
+    background: none;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    display: table;
+    margin: auto;
+    line-height: 40px;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+.brochure .btn:hover{
+    background: #fff;
+    color: #444;
+}
 /***********************footer *****************/
 
 footer {
