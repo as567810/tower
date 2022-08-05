@@ -45,6 +45,18 @@
 
               </ul>
             </li>
+            <li>
+              <a id="service" href="javascript:void()">Products <i class="fa fa-angle-down"></i></a>
+              <ul class="drpdwn">
+                <li><a href="">Telecom Structure</a></li>
+                <li><a href="">PEB Structure</a></li>
+                <li><a href="">Solar Installation and Supply</a></li>
+                <li><a href="">Heavy Steel Structure</a></li>
+
+              </ul>
+            </li>
+            <li><a id="contact" href="contact.php">Saftey</a></li>
+            <li><a id="contact" href="contact.php">Gallery</a></li>
             <li><a id="contact" href="contact.php">contact us</a></li>
           </ul>
         </nav>
@@ -221,39 +233,135 @@
   </section>
   <section class="clients">
     <h2>OUR CLIENTS</h2>
-        <div class="swiper-container Mys2">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="images/logo.jpg" alt="logo" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images/logo.jpg" alt="logo" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images/logo.jpg" alt="logo" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images/logo.jpg" alt="logo" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images/logo.jpg" alt="logo" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images/logo.jpg" alt="logo" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images/logo.jpg" alt="logo" />
-                </div>
-              </div>
+    <div class="swiper-container Mys2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/logo.jpg" alt="logo" />
         </div>
+        <div class="swiper-slide">
+          <img src="images/logo.jpg" alt="logo" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/logo.jpg" alt="logo" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/logo.jpg" alt="logo" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/logo.jpg" alt="logo" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/logo.jpg" alt="logo" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/logo.jpg" alt="logo" />
+        </div>
+      </div>
+    </div>
   </section>
 
 
+
+
+  <section class="client-testimonals wow fadeIn">
+
+    <div class="container">
+      <h2>Client testimonals</h2>
+
+      <div class="swiper-container awards-slide3">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <div class="ratings">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+
+            <div class="in-test">
+              <figure>
+                <img src="https://b2demo.in/cliqworld6/images/tes.jpg" alt="" width="20">
+              </figure>
+
+              <div class="text">
+                <h3>Mohit k</h3>
+                <p>True Start Coffee</p>
+              </div>
+
+
+            </div>
+            <span class="fa fa-quote-right"></span>
+          </li>
+          <li class="swiper-slide">
+            <div class="ratings">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+            </p>
+
+            <div class="in-test">
+              <figure>
+                <img src="https://b2demo.in/cliqworld6/images/tes2.jpg" alt="" width="20">
+              </figure>
+
+              <div class="text">
+                <h3>Rahul T</h3>
+                <p>True Start Coffee</p>
+              </div>
+
+
+            </div>
+            <span class="fa fa-quote-right"></span>
+          </li>
+          <li class="swiper-slide">
+            <div class="ratings">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+            <p>For myntra and other online portals shoot I am suggesting cliqworld Studio
+
+            </p>
+
+            <div class="in-test">
+              <figure>
+                <img src="https://b2demo.in/cliqworld6/images/tes3.jpg" alt="" width="20">
+              </figure>
+
+              <div class="text">
+                <h3>Rohit b</h3>
+                <p>True Start Coffee</p>
+              </div>
+
+            </div>
+            <span class="fa fa-quote-right"></span>
+          </li>
+
+        </ul>
+      </div>
+      <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div> -->
+    </div>
+
+  </section>
   <section class="brochure">
-      <h2>Download Catalogue here</h2>
-      <a class="btn" href="">Download here</a>
+    <h2>Download Catalogue here</h2>
+    <a class="btn" href="">Download here</a>
   </section>
-
   <footer class="wow fadeInDown ">
     <div class="foot-2">
       <div class="container">
@@ -322,6 +430,28 @@
   <script src="js/wow.min.js"></script>
   <script src="js/my_script.js"></script>
   <script>
+
+    var swiper = new Swiper(".client-testimonals .awards-slide3", {
+      slidesPerView: 1,
+      spaceBetween: 40,
+      autoplay: true,
+      freeMode: true,
+      navigation: {
+        nextEl: ".client-testimonals .swiper-button-next",
+        prevEl: ".client-testimonals .swiper-button-prev",
+
+      },
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        500: {
+          slidesPerView: 3,
+        },
+      }
+    });
   </script>
 </body>
 

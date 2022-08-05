@@ -1042,6 +1042,142 @@ header nav ul li a.active {
     background: #fff;
     color: #444;
 }
+
+.client-testimonals{
+    padding: 50px 0;
+    background: #ededed;
+}
+
+
+
+.client-testimonals h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.client-testimonals h2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -7px;
+    width: 50px;
+    height: 2px;
+    background: #EE7752;
+}
+
+.client-testimonals ul {
+   
+    list-style: none;
+    
+}
+.client-testimonals ul li{
+   width: 29.33%;
+   background: #fff;
+   padding: 60px 40px 30px;
+    transition: 0.3s;
+   float: left;
+   height: 340px;
+}
+.client-testimonals ul li:hover{
+    transform: scale(1.1);
+}
+.client-testimonals ul li .ratings{
+    margin-bottom: 12px;
+}
+.client-testimonals ul li .ratings .fa-star{
+    font-size: 20px;
+}
+.client-testimonals ul li .ratings .checked{
+    color: orange;
+}
+.client-testimonals ul li p{
+font-weight: 500;
+letter-spacing: 0em;
+line-height: 1.7;
+font-size: 16px;
+color: #3a3a3a;
+}
+
+.client-testimonals .in-test{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.client-testimonals .in-test figure{
+    margin-right: 22px;
+}
+.client-testimonals .in-test figure img{
+   width: 70px;
+}
+.client-testimonals .fa-quote-right{
+    float: right;
+    font-size: 30px;
+}
+.top-banner{
+    position: relative;
+}
+.top-banner h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 0 5px 7px #242424;
+}
+.top-banner h1::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    background: #ff6b00;
+    width: 70px;
+    height: 2px;
+}
+.details{
+    padding: 50px 0;
+}
+.details .main-d{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+.details .main-d .left{
+    width: 40%;
+    margin-right: 2%;
+}
+.details .main-d .right{
+    width: 58%;
+}
+.details .main-d .right h2{
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 25px;
+    color: rgb(43, 43, 43);
+}
+.details .main-d:nth-child(even){
+    flex-direction: row-reverse;
+}
+.details .main-d h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #ff6b00;
+    width: 70px;
+    height: 2px;
+}
+.details .main-d .right p{
+    line-height: 23px;
+    color: #444;
+}
 /***********************footer *****************/
 
 footer {
