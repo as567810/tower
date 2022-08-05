@@ -1279,7 +1279,22 @@ color: #3a3a3a;
     font-size: 20px;
     margin-left: 12px;
 }
+.gallery{
+    padding:50px 0;
+}
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.gallery ul li{
+    width: 31.33%;
+    margin: 1%;
+    box-shadow: 0 3px 10px #444;
+}
+.gallery ul li img{
+    margin-bottom: -4px;
+}
 /***********************footer *****************/
 
 footer {
