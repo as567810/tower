@@ -1178,6 +1178,108 @@ color: #3a3a3a;
     line-height: 23px;
     color: #444;
 }
+
+/*****************/
+/* contact  page */
+/*****************/
+.form-sec {
+    padding: 50px 0;
+}
+
+.form-sec h2 {
+    font-size: 38px;
+    color: #1d202f;
+    margin-bottom: 20px;
+}
+
+.form-sec form .inp {
+    margin-bottom: 7px;
+}
+
+.form-sec form .inp input {
+    width: 450px;
+    height: 40px;
+    outline: 0;
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #cfcfcf;
+
+    box-shadow: 0 3px 6px #ccc;
+    border-radius: 12px;
+}
+
+.form-sec form .inp textarea {
+    width: 450px;
+    font-size: 16px;
+    outline: 0;
+    padding: 12px;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0 3px 6px #ccc;
+    border-radius: 12px;
+}
+
+.form-sec form .inp textarea::placeholder {
+    font-family: "";
+}
+
+.form-sec form .inp input:focus-visible,
+.form-sec form .inp textarea:focus-visible {
+    border: 1px solid #000;
+}
+
+.form-sec form .btn {
+    /* border-radius: 0; */
+    background-color: #ff6b00;
+    border: 1px solid transparent;
+    color: #fff;
+    width: 145px;
+    height: 40px;
+
+    border-radius: 35px;
+    cursor: pointer;
+    z-index: 0;
+    position: relative;
+    transition: .4s;
+    overflow: hidden;
+}
+.form-sec .main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-sec .main .lt{
+    width: 50%;
+}
+.form-sec .main .rt{
+    width: 50%;
+}
+.form-sec form .btn:hover {
+    color: #ff6b00;
+}
+
+.form-sec form .btn::before {
+    background-color: #fff;
+    border: 1px solid #ff6b00;
+}
+
+.form-sec .rt .detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.form-sec .rt .detail i {
+    font-size: 20px;
+    color: #fff;
+    background: #000;
+    padding: 12px;
+}
+
+.form-sec .rt .detail p {
+    font-size: 20px;
+    margin-left: 12px;
+}
+
 /***********************footer *****************/
 
 footer {
