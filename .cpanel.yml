@@ -2,4 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hashdigitec/tower.web.hashdigitech.com/
-    - /bin/cp -r * $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
+    - /bin/cp/css * $DEPLOYPATH
+    - /bin/cp/images * $DEPLOYPATH 
+    - /bin/cp/fonts * $DEPLOYPATH
+    - /bin/cp/js * $DEPLOYPATH
