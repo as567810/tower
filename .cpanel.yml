@@ -3,7 +3,3 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/hashdigitec/newtower.hashdigitech.com/
     - /bin/cp * $DEPLOYPATH
-    - /bin/cp/css * $DEPLOYPATH
-    - /bin/cp/images * $DEPLOYPATH 
-    - /bin/cp/fonts * $DEPLOYPATH
-    - /bin/cp/js * $DEPLOYPATH
