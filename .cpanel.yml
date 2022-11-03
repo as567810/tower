@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hashdigitec/tower.web.hashdigitech.com/
+    - /bin/cp * $DEPLOYPATH
