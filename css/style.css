@@ -1153,7 +1153,13 @@ color: #3a3a3a;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    align-items: center;
 
+}
+.details .main-d ul{
+    list-style: disc;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 .details .main-d .left{
     width: 40%;
