@@ -1154,6 +1154,7 @@ color: #3a3a3a;
     flex-wrap: wrap;
     margin-bottom: 50px;
     align-items: center;
+    justify-content: center;
 
 }
 .details .main-d ul{
@@ -1165,10 +1166,14 @@ color: #3a3a3a;
     width: 40%;
     margin-right: 2%;
 }
+.details .main-d .left.com{
+    width: 16%;
+}
 .details .main-d .right{
     width: 58%;
 }
-.details .main-d .right h2{
+.details .main-d .right h2,
+.details .main-d .left h2{
     margin-bottom: 30px;
     position: relative;
     font-size: 25px;
@@ -1176,6 +1181,11 @@ color: #3a3a3a;
 }
 .details .main-d:nth-child(even){
     flex-direction: row-reverse;
+}
+.details .main-d.align-r{
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
 }
 .details .main-d h2::before{
     content: '';
@@ -1185,6 +1195,9 @@ color: #3a3a3a;
     background: #ff6b00;
     width: 70px;
     height: 2px;
+}
+.details .main-d.align-r h2{
+    margin-top: 10px;
 }
 .details .main-d .right p{
     line-height: 23px;
