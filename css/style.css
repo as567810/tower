@@ -1279,7 +1279,9 @@ main-d h2{
 .form-sec form .inp textarea:focus-visible {
     border: 1px solid #000;
 }
-
+.form-sec .rt .detail a{
+    color: #000;
+}
 .form-sec form .btn {
     /* border-radius: 0; */
     background-color: #ff6b00;
