@@ -27,6 +27,13 @@ $(".cl_form").click(function() {
     }, 1000);
 });
 
+// $(document).ready(function(){
+//     $('.hamburger').click(function(){
+//         $(this).toggleClass('toggle');
+//         $('header nav ul').toggleClass('shownav');
+//     });
+// });
+
 // navigation
 
 $(document).ready(function() {

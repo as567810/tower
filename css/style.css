@@ -1625,9 +1625,68 @@ footer .foot-copyright .cpy-txt {
         height: 89px;
     }
 
-    .container {
-        width: 90%;
-        padding: 0;
+    .desk {
+        display: none;
+    }
+
+    .banner-sec img.mob {
+        display: block;
+    }
+
+    .lt,
+    .rt {
+        width: 100%;
+    }
+
+    .testimonial-sec .rt,
+    .rt {
+        padding-left: 0;
+    }
+
+    .top-head .num-mail a {
+        display: block;
+    }
+
+    .top-head .num-mail a:first-child {
+        margin-bottom: 6px;
+    }
+
+    header nav .hamburger {
+        display: block;
+    }
+
+    header nav ul li a i {
+        transform: rotate(-90deg);
+    }
+
+    header nav ul li ul.drpdwn {
+        width: auto;
+        top: 0;
+        z-index: 1;
+        left: 136px;
+    }
+
+    header nav ul {
+        position: absolute;
+        top: 70px;
+        left: -400px;
+        width: 60%;
+        height: 100vh;
+        background-color: #1f73bc;
+    }
+
+    header nav ul.shownav {
+        left: 0;
+    }
+
+    header nav ul li {
+        display: block;
+        padding-left: 16px;
+        line-height: 50px;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
     }
 
 }
