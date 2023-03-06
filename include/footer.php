@@ -17,7 +17,7 @@
         <div class="inner-foot-2">
           <ul>
             <h2>Quick Links</h2>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="">Product & Services</a></li>
             <li><a href="contact.php">Contact Us</a></li>

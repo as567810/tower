@@ -2,7 +2,7 @@
     <div class="fix">
       <div class="container">
         <div class="logo">
-          <a href="index.html">
+          <a href="index.php">
             <img src="images/logo.png" alt="logo" />
             <!-- LOGO -->
           </a>
@@ -14,7 +14,7 @@
             <div class="line3"></div>
           </div>
           <ul>
-            <li><a id="home" class="active" href="index.html">home</a></li>
+            <li><a id="home" class="active" href="index.php">home</a></li>
             <li><a id="about" href="about.html">about us</a></li>
             <li>
               <a id="service" href="javascript:void()">Products & services <i class="fa fa-angle-down"></i></a>

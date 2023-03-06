@@ -1624,7 +1624,9 @@ footer .foot-copyright .cpy-txt {
     .header-mar {
         height: 89px;
     }
-
+    .container{
+        width: 90%;
+    }
     .desk {
         display: none;
     }
