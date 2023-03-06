@@ -38,17 +38,17 @@
             <li>
               <a id="service" href="javascript:void()">Products & services <i class="fa fa-angle-down"></i></a>
               <ul class="drpdwn">
-                <li><a href="telecom.html">Telecom Structure</a></li>
-                <li><a href="peb.html">PEB Structure</a></li>
-                <li><a href="solar.html">Solar Installation and Supply</a></li>
-                <li><a href="heavy.html">Heavy Steel Structure</a></li>
+                <li><a href="telecom.php">Telecom Structure</a></li>
+                <li><a href="peb.php">PEB Structure</a></li>
+                <li><a href="solar.php">Solar Installation and Supply</a></li>
+                <li><a href="heavy.php">Heavy Steel Structure</a></li>
 
               </ul>
             </li>
 
-            <li><a id="contact" href="safety.html">Saftey</a></li>
-            <li><a id="contact" href="gallery.html">Gallery</a></li>
-            <li><a id="contact" href="contact.html">contact us</a></li>
+            <li><a id="contact" href="safety.php">Saftey</a></li>
+            <li><a id="contact" href="gallery.php">Gallery</a></li>
+            <li><a id="contact" href="contact.php">contact us</a></li>
           </ul>
         </nav>
       </div>
@@ -145,19 +145,19 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="">Product & Services</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
 
           </ul>
         </div>
         <div class="inner-foot-2">
           <ul>
             <h2>Services</h2>
-            <li><a href="telecom.html">Telecom Structure
+            <li><a href="telecom.php">Telecom Structure
               </a></li>
-            <li><a href="peb.html">PEB Structure
+            <li><a href="peb.php">PEB Structure
               </a></li>
-            <li><a href="solar.html">Solar Installation and Supply</a></li>
-            <li><a href="heavy.html">Heavy Steel Structure</a></li>
+            <li><a href="solar.php">Solar Installation and Supply</a></li>
+            <li><a href="heavy.php">Heavy Steel Structure</a></li>
 
 
           </ul>

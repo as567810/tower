@@ -1,59 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta name="robots" content="NOINDEX, NOFOLLOW" />
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tower</title>
-
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/animate.css" />
-</head>
+<?php include("include/head.php"); ?>
 
 <body>
 
 
-  <header>
-    <div class="fix">
-      <div class="container">
-        <div class="logo">
-          <a href="index.html">
-            <img src="images/logo.png" alt="logo" />
-            <!-- LOGO -->
-          </a>
-        </div>
-        <nav>
-          <div class="hamburger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <ul>
-            <li><a id="home" class="active" href="index.html">home</a></li>
-            <li><a id="about" href="about.html">about us</a></li>
-            <li>
-              <a id="service" href="javascript:void()">Products & services <i class="fa fa-angle-down"></i></a>
-              <ul class="drpdwn">
-                <li><a href="telecom.html">Telecom Structure</a></li>
-                <li><a href="peb.html">PEB Structure</a></li>
-                <li><a href="solar.html">Solar Installation and Supply</a></li>
-                <li><a href="heavy.html">Heavy Steel Structure</a></li>
-
-              </ul>
-            </li>
-
-            <li><a id="contact" href="safety.html">Saftey</a></li>
-            <li><a id="contact" href="gallery.html">Gallery</a></li>
-            <li><a id="contact" href="contact.html">contact us</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+<?php include("include/header.php"); ?>
   <!-- THIS IS FORM -->
   <section class="banner wow fadeIn">
 
@@ -67,7 +20,7 @@
             </h1>
 
     
-             <button class="btn-co"  onClick="location.href='contact.html'">Contact</button>
+             <button class="btn-co"  onClick="location.href='contact.php'">Contact</button>
           </div>
         </div>
         <div class="swiper-slide">
@@ -78,7 +31,7 @@
             </h1>
 
     
-             <button class="btn-co"  onClick="location.href='contact.html'">Contact</button>
+             <button class="btn-co"  onClick="location.href='contact.php'">Contact</button>
           </div>
         </div>
         <div class="swiper-slide">
@@ -89,7 +42,7 @@
             </h1>
 
     
-             <button class="btn-co"  onClick="location.href='contact.html'">Contact</button>
+             <button class="btn-co"  onClick="location.href='contact.php'">Contact</button>
           </div>
         </div>
         <div class="swiper-slide">
@@ -100,7 +53,7 @@
             </h1>
 
     
-             <button class="btn-co"  onClick="location.href='contact.html'">Contact</button>
+             <button class="btn-co"  onClick="location.href='contact.php'">Contact</button>
           </div>
         </div>
 
@@ -121,7 +74,7 @@
           <figure>
             <img src="images/s4.jpg" alt="">
           </figure>
-          <a href="telecom.html">
+          <a href="telecom.php">
           <div class="tower-inn">
             <h3>Telecommunication</h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -143,7 +96,7 @@
           <figure>
             <img src="images/s1.jpg" alt="">
           </figure>
-          <a href="peb.html">
+          <a href="peb.php">
           <div class="tower-inn">
             <h3>PEB Structure</h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -166,7 +119,7 @@
           <figure>
             <img src="images/s6.jpg" alt="">
           </figure>
-          <a href="solar.html">
+          <a href="solar.php">
           <div class="tower-inn">
             <h3>Renewable Solar</h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -177,7 +130,7 @@
           <figure>
             <img src="images/s3.jpg" alt="">
           </figure>
-          <a href="heavy.html">
+          <a href="heavy.php">
           <div class="tower-inn">
             <h3>Heavy Steel </h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -343,98 +296,10 @@
     <h2>Download Catalogue here</h2>
     <a class="btn" href="">Download here</a>
   </section>
-  <footer class="wow fadeInDown ">
-    <div class="foot-2">
-      <div class="container">
-        <div class="inner-foot-2">
-          <figure><a href=""><img src="images/f-logo.png" alt=""></a></figure>
 
-          <p>Aman Infra assure the valuable support and interest of all our esteemed customers are kept uppermost in our agenda and look forward to receiving your valuable enquiries and purchase orders. We are committed to quality, timely delivery, and complete customer satisfaction. This is reflected from the fact that we are regularly getting repeated orders from reputed corporate houses.</p>
-          <li>
-            <!--   <span class="social">
-                                  <a href="#myDiv"> <i class="fa fa-facebook"></i></a>
-                                  <a href="#"> <i class="fa fa-twitter"></i></a>
-                                  <a href="#"> <i class="fa fa-linkedin"></i></a>
-                                  <a href="#"> <i class="fa fa-instagram"></i></a>
-                              </span> -->
-          </li>
-        </div>
-        <div class="inner-foot-2">
-          <ul>
-            <h2>Quick Links</h2>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="">Product & Services</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+  <?php include("include/footer.php"); ?>
 
-          </ul>
-        </div>
-        <div class="inner-foot-2">
-          <ul>
-            <h2>Services</h2>
-            <li><a href="telecom.html">Telecom Structure
-              </a></li>
-            <li><a href="peb.html">PEB Structure
-              </a></li>
-            <li><a href="solar.html">Solar Installation and Supply</a></li>
-            <li><a href="heavy.html">Heavy Steel Structure</a></li>
-
-
-          </ul>
-        </div>
-
-        <div class="inner-foot-2">
-          <ul>
-            <h2>contact</h2>
-            <li><a><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Khasra No. 484, Village Dimoli Opp. Dimoli Gate Siwal Gheja Road Meerut (UP) :- 250501 </a></li>
-
-            <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-9999886287</a>
-              </li>
-<li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-8390065492</a>
-              </li>
-
-            
-            <!-- <li><a href="tel:+919811825573"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-9999886287</a></li>
-            <li><a href="mailto:RamRachna.tourandtravel84@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-                RamRachna.tourandtravel84@gmail.com</a></li> -->
-            <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i>
-                amansales@amaninfradeveloper.co.in</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class=" foot-copyright ">
-        <p><span class="cpy-txt">Copyright</span> @ 2022 All Rights Reserved</p>
-      </div>
-    </div>
-  </footer>
-  <script src="js/jquery.js"></script>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/my_script.js"></script>
-  <script>
-
-    var swiper = new Swiper(".client-testimonals .awards-slide3", {
-      slidesPerView: 1,
-      spaceBetween: 40,
-      autoplay: true,
-      freeMode: true,
-      navigation: {
-        nextEl: ".client-testimonals .swiper-button-next",
-        prevEl: ".client-testimonals .swiper-button-prev",
-
-      },
-
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        500: {
-          slidesPerView: 3,
-        },
-      }
-    });
-  </script>
+  
 </body>
 
 </html>
