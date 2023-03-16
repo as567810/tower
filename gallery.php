@@ -20,66 +20,27 @@
       <div class="container">
         <ul>
           <li class="wow fadeInUp">
-            <a class="fancybox " href="images/s1.jpg" data-fancybox="gallery">
-            <img src="images/s1.jpg" alt="">
+            <a class="fancybox " href="images/gallery/1.jpg" data-fancybox="gallery">
+            <img src="images/gallery/1.jpg" alt="">
             </a>
           </li>
           <li  class="wow fadeInUp" >
-            <a class="fancybox " href="images/s2.jpg" data-fancybox="gallery">
-            <img src="images/s2.jpg" alt="">
+            <a class="fancybox " href="images/gallery/2.jpg" data-fancybox="gallery">
+            <img src="images/gallery/2.jpg" alt="">
             </a>
           </li>
           <li  class="wow fadeInUp" >
-            <a class="fancybox " href="images/s3.jpg" data-fancybox="gallery">
-            <img src="images/s3.jpg" alt="">
+            <a class="fancybox " href="images/gallery/3.jpg" data-fancybox="gallery">
+            <img src="images/gallery/3.jpg" alt="">
             </a>
           </li>
           <li  class="wow fadeInUp" >
-            <a class="fancybox" href="images/s4.jpg" data-fancybox="gallery">
-            <img src="images/s4.jpg" alt="">
+            <a class="fancybox" href="images/gallery/4.jpg" data-fancybox="gallery">
+            <img src="images/gallery/4.jpg" alt="">
             </a>
           </li>
           
-          <li class="wow fadeInUp">
-            <a class="fancybox " href="images/s1.jpg" data-fancybox="gallery">
-            <img src="images/s1.jpg" alt="">
-            </a>
-          </li>
-          <li  class="wow fadeInUp" >
-            <a class="fancybox " href="images/s2.jpg" data-fancybox="gallery">
-            <img src="images/s2.jpg" alt="">
-            </a>
-          </li>
-          <li  class="wow fadeInUp" >
-            <a class="fancybox " href="images/s3.jpg" data-fancybox="gallery">
-            <img src="images/s3.jpg" alt="">
-            </a>
-          </li>
-          <li  class="wow fadeInUp" >
-            <a class="fancybox" href="images/s4.jpg" data-fancybox="gallery">
-            <img src="images/s4.jpg" alt="">
-            </a>
-          </li>
-          <li class="wow fadeInUp">
-            <a class="fancybox " href="images/s1.jpg" data-fancybox="gallery">
-            <img src="images/s1.jpg" alt="">
-            </a>
-          </li>
-          <li  class="wow fadeInUp" >
-            <a class="fancybox " href="images/s2.jpg" data-fancybox="gallery">
-            <img src="images/s2.jpg" alt="">
-            </a>
-          </li>
-          <li  class="wow fadeInUp" >
-            <a class="fancybox " href="images/s3.jpg" data-fancybox="gallery">
-            <img src="images/s3.jpg" alt="">
-            </a>
-          </li>
-          <li  class="wow fadeInUp" >
-            <a class="fancybox" href="images/s4.jpg" data-fancybox="gallery">
-            <img src="images/s4.jpg" alt="">
-            </a>
-          </li>
+          
         </ul>
       </div>
 

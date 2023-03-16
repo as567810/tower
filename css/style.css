@@ -234,7 +234,7 @@ header nav {
 .hamburger div {
     width: 30px;
     height: 3px;
-    background: #fff;
+    background: #5e5e5e;
     border-radius: 20px;
     margin: 5px;
     transition: all 0.3s ease;
@@ -1125,6 +1125,7 @@ color: #3a3a3a;
 }
 .top-banner{
     position: relative;
+    margin-top: 80px;
 }
 .top-banner h1{
     position: absolute;
@@ -1135,6 +1136,8 @@ color: #3a3a3a;
     font-size: 30px;
     text-transform: uppercase;
     text-shadow: 0 5px 7px #242424;
+    width: 100%;
+    text-align: center;
 }
 .top-banner h1::before{
     content: '';
@@ -1328,6 +1331,8 @@ main-d h2{
     color: #fff;
     background: #000;
     padding: 12px;
+    width: 40px;
+    text-align: center;
 }
 
 .form-sec .rt .detail p {
@@ -1343,7 +1348,7 @@ main-d h2{
 
 }
 .gallery ul li{
-    width: 31.33%;
+    width: 23%;
     margin: 1%;
     box-shadow: 0 3px 10px #444;
 }
@@ -1381,6 +1386,7 @@ main-d h2{
 footer {
     width: 100%;
     float: left;
+    overflow: hidden;
     background: #020202;
 }
 
@@ -1674,9 +1680,8 @@ footer .foot-copyright .cpy-txt {
         left: -400px;
         width: 60%;
         height: 100vh;
-        background-color: #1f73bc;
+        background-color:#0086ca;
     }
-
     header nav ul.shownav {
         left: 0;
     }
@@ -1684,11 +1689,62 @@ footer .foot-copyright .cpy-txt {
     header nav ul li {
         display: block;
         padding-left: 16px;
-        line-height: 50px;
+        line-height: 20px;
     }
 
     header nav ul li a {
-        font-size: 20px;
+        font-size: 14px;
+        color: #fff;
+    }
+    header nav ul li ul.drpdwn{
+        background: #0086ca;
+        border: 1px solid #ccc;
+    }
+    .btn-co{
+        width: 120px;
+    }
+    .banner .seo_text h1{
+        font-size: 16px;
+    }
+    .about .main-d .left,
+    .about .main-d .right{
+        width: 100%;
+    }
+    .about .main-d .right{
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .form-sec .main .lt{
+        width: 100%;
+    }
+    .services ul li h3{
+        font-size: 10px;
+    }
+    .details .main-d .right,
+    .details .main-d .left{
+        width: 100%;
+    }
+    .details .main-d .left.com{
+        width: 46%;
+        margin-bottom: 20px;
+    }
+    .safety .main-d .left,
+    .safety .main-d .right{
+        width: 100%;
+    }
+    footer .foot-2 .inner-foot-2 {
+        width: 100%;
+    
+    }
+    footer .foot-2 .inner-foot-2:nth-child(2){
+        padding-left: 0;
+    }
+    footer .inner-foot-2 li{
+        margin-left: 15px;
+    }
+    footer .foot-2 .inner-foot-2{
+        padding-bottom: 10px;
     }
 
 }

@@ -212,18 +212,18 @@ $(document).ready(function() {
     });
 
     var swiper = new Swiper(".Mys2", {
-        slidesPerView: 6,
+        slidesPerView: 1,
         slidesPerGroup: 1,
         spaceBetween: 10,
         loop: true,
         freeMode: false,
         autoPlay: true,
         speed: 1000,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
+        // autoplay: {
+        //     delay: 3000,
+        //     disableOnInteraction: false,
 
-        },
+        // },
 
         navigation: {
             nextEl: " .swiper-button-next",
@@ -235,12 +235,12 @@ $(document).ready(function() {
             // el: ".swiper-pagination",
             // clickable: true,
         },
-        // breakpoints: {
-        //     500: {
-        //         slidesPerView: 1,
-        //     },
+        breakpoints: {
+            501: {
+                slidesPerView: 6,
+            },
 
-        // }
+        }
     });
 
     var swiper = new Swiper(".myCl", {

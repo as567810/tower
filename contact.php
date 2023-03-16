@@ -39,19 +39,19 @@
             <div class="rt">
                 <h2>Contact Us</h2>
                 <div class="detail">
-                    <i class="fa-solid fa-house"></i>
+                    <i class="fa fa-map-marker"></i>
                     <p> Main Road, Sector-32, Greater Noida, UP</p>
                 </div>
                 <div class="detail">
-                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa fa-phone"></i>
                     <p><a href="tel:+919999886287 ">+91-9999886287 </a></p>
                 </div>
                 <div class="detail">
-                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa fa-phone"></i>
                     <p><a href="tel:+918390065492  ">+91-8390065492  </a></p>
                 </div>
                 <div class="detail">
-                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa fa-envelope"></i>
                     <p><a href="mailto:amansales@amaninfradeveloper.co.in">amansales@amaninfradeveloper.co.in</a></p>
                 </div>
             </div>

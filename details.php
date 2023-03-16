@@ -34,7 +34,7 @@
           </div>
           <ul>
             <li><a id="home" class="active" href="index.php">home</a></li>
-            <li><a id="about" href="about.html">about us</a></li>
+            <li><a id="about" href="about.php">about us</a></li>
             <li>
               <a id="service" href="javascript:void()">Products & services <i class="fa fa-angle-down"></i></a>
               <ul class="drpdwn">
@@ -143,7 +143,7 @@
           <ul>
             <h2>Quick Links</h2>
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.php">About Us</a></li>
             <li><a href="">Product & Services</a></li>
             <li><a href="contact.php">Contact Us</a></li>
 
