@@ -12,7 +12,7 @@
   <!-- THIS IS FORM -->
 
   <section class="top-banner">
-    <img src="images/details.jpg" alt="">
+    <img src="<?php echo HDOMAIN?>images/details.jpg" alt="">
     <h1>Gallery</h1>
   </section>
 
@@ -21,22 +21,22 @@
         <ul>
           <li class="wow fadeInUp">
             <a class="fancybox " href="images/gallery/1.jpg" data-fancybox="gallery">
-            <img src="images/gallery/1.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/gallery/1.jpg" alt="">
             </a>
           </li>
           <li  class="wow fadeInUp" >
             <a class="fancybox " href="images/gallery/2.jpg" data-fancybox="gallery">
-            <img src="images/gallery/2.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/gallery/2.jpg" alt="">
             </a>
           </li>
           <li  class="wow fadeInUp" >
             <a class="fancybox " href="images/gallery/3.jpg" data-fancybox="gallery">
-            <img src="images/gallery/3.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/gallery/3.jpg" alt="">
             </a>
           </li>
           <li  class="wow fadeInUp" >
             <a class="fancybox" href="images/gallery/4.jpg" data-fancybox="gallery">
-            <img src="images/gallery/4.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/gallery/4.jpg" alt="">
             </a>
           </li>
           

@@ -11,7 +11,7 @@
     <!-- THIS IS FORM -->
 
     <section class="top-banner">
-      <img src="images/details.jpg" alt="">
+      <img src="<?php echo HDOMAIN?>images/details.jpg" alt="">
       <h1>TELECOMMUNICATION</h1>
     </section>
 
@@ -19,7 +19,7 @@
       <div class="container">
         <div class="main-d">
           <div class="left">
-            <img src="images/img.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/img.jpg" alt="">
           </div>
           <div class="right">
             <h2>TELECOMMUNICATION </h2>
@@ -41,7 +41,7 @@
 
         <div class="main-d align-r">
           <div class="left com">
-            <img src="images/tublar.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/tublar.jpg" alt="">
             <h2>Tubular Towers </h2>
             <ul>
               <li>
@@ -58,7 +58,7 @@
             </ul>
           </div>
           <div class="left com">
-            <img src="images/angular.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/angular.jpg" alt="">
             <h2>Angular Towers </h2>
             <ul>
               <li>
@@ -71,7 +71,7 @@
             </ul>
           </div>
           <div class="left com">
-            <img src="images/tublar.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/tublar.jpg" alt="">
             <h2>Hybrid Towers </h2>
             <ul>
               <li>
@@ -84,7 +84,7 @@
             </ul>
           </div>
           <div class="left com">
-            <img src="images/tublar.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/tublar.jpg" alt="">
             <h2>Masts </h2>
             <ul>
               <li>
@@ -103,7 +103,7 @@
             </ul>
           </div>
           <div class="left com">
-            <img src="images/tublar.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/tublar.jpg" alt="">
             <h2>Why Choose AID Telecom Towers </h2>
             <ul>
               <li>

@@ -13,7 +13,7 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="images/ban3.jpg" alt="">
+          <img src="<?php echo HDOMAIN?>images/ban3.jpg" alt="">
           <div class="seo_text wow slideIntLeft">
             <h1>Communication is our business
               <span> </span>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="images/ban4.jpg" alt="">
+          <img src="<?php echo HDOMAIN?>images/ban4.jpg" alt="">
           <div class="seo_text wow slideIntLeft">
             <h1>Agile structure Providers
               <span> </span>
@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="images/ban5.jpg" alt="">
+          <img src="<?php echo HDOMAIN?>images/ban5.jpg" alt="">
           <div class="seo_text wow slideIntLeft">
             <h1>Always Dependable
               <span> </span>
@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="images/ban6.jpg" alt="">
+          <img src="<?php echo HDOMAIN?>images/ban6.jpg" alt="">
           <div class="seo_text wow slideIntLeft">
             <h1>Quality & Reliability
               <span>  </span>
@@ -72,9 +72,9 @@
 
         <li class="wow slideInLeft">
           <figure>
-            <img src="images/s4.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/s4.jpg" alt="">
           </figure>
-          <a href="telecom.php">
+          <a href="<?php echo HDOMAIN?>telecom.php">
           <div class="tower-inn">
             <h3>Telecommunication</h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -83,9 +83,9 @@
         </li>
         <li class="wow slideInLeft">
           <figure>
-            <img src="images/s2.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/s2.jpg" alt="">
           </figure>
-          <a href="">
+          <a href="<?php echo HDOMAIN?>">
           <div class="tower-inn">
             <h3>Poles Single Pole</h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -94,9 +94,9 @@
         </li>
         <li class="wow slideInLeft">
           <figure>
-            <img src="images/s1.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/s1.jpg" alt="">
           </figure>
-          <a href="peb.php">
+          <a href="<?php echo HDOMAIN?>peb.php">
           <div class="tower-inn">
             <h3>PEB Structure</h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -106,9 +106,9 @@
         </li>
         <li class="wow slideInLeft">
           <figure>
-            <img src="images/s5.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/s5.jpg" alt="">
           </figure>
-          <a href="">
+          <a href="<?php echo HDOMAIN?>">
           <div class="tower-inn">
             <h3>Power Electric Tower</h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -117,9 +117,9 @@
         </li>
         <li class="wow slideInLeft">
           <figure>
-            <img src="images/s6.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/s6.jpg" alt="">
           </figure>
-          <a href="solar.php">
+          <a href="<?php echo HDOMAIN?>solar.php">
           <div class="tower-inn">
             <h3>Renewable Solar</h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -128,9 +128,9 @@
         </li>
         <li class="wow slideInLeft">
           <figure>
-            <img src="images/s3.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/s3.jpg" alt="">
           </figure>
-          <a href="heavy.php">
+          <a href="<?php echo HDOMAIN?>heavy.php">
           <div class="tower-inn">
             <h3>Heavy Steel </h3>
             <!-- <p>Lorem ipsum dolor, sit amet</p> -->
@@ -157,7 +157,7 @@
     </div>
     <div class="main-d wow slideInDown">
       <div class="left">
-        <img src="images/img.jpg" alt="">
+        <img src="<?php echo HDOMAIN?>images/img.jpg" alt="">
       </div>
       <div class="right">
         <h3>Why choose Us</h3>
@@ -172,22 +172,22 @@
     <div class="swiper-container Mys2">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="images/client/1.jpg" alt="logo" />
+          <img src="<?php echo HDOMAIN?>images/client/1.jpg" alt="logo" />
         </div>
         <div class="swiper-slide">
-          <img src="images/client/2.jpg" alt="logo" />
+          <img src="<?php echo HDOMAIN?>images/client/2.jpg" alt="logo" />
         </div>
         <div class="swiper-slide">
-          <img src="images/client/3.jpg" alt="logo" />
+          <img src="<?php echo HDOMAIN?>images/client/3.jpg" alt="logo" />
         </div>
         <div class="swiper-slide">
-          <img src="images/client/4.jpg" alt="logo" />
+          <img src="<?php echo HDOMAIN?>images/client/4.jpg" alt="logo" />
         </div>
         <div class="swiper-slide">
-          <img src="images/client/5.jpg" alt="logo" />
+          <img src="<?php echo HDOMAIN?>images/client/5.jpg" alt="logo" />
         </div>
         <div class="swiper-slide">
-          <img src="images/client/6.png" alt="logo" />
+          <img src="<?php echo HDOMAIN?>images/client/6.png" alt="logo" />
         </div>
         
       </div>
@@ -218,7 +218,7 @@
 
             <div class="in-test">
               <figure>
-                <img src="https://b2demo.in/cliqworld6/images/tes.jpg" alt="" width="20">
+                <img src="<?php echo HDOMAIN?>https://b2demo.in/cliqworld6/images/tes.jpg" alt="" width="20">
               </figure>
 
               <div class="text">
@@ -245,7 +245,7 @@
 
             <div class="in-test">
               <figure>
-                <img src="https://b2demo.in/cliqworld6/images/tes2.jpg" alt="" width="20">
+                <img src="<?php echo HDOMAIN?>https://b2demo.in/cliqworld6/images/tes2.jpg" alt="" width="20">
               </figure>
 
               <div class="text">
@@ -272,7 +272,7 @@
 
             <div class="in-test">
               <figure>
-                <img src="https://b2demo.in/cliqworld6/images/tes3.jpg" alt="" width="20">
+                <img src="<?php echo HDOMAIN?>https://b2demo.in/cliqworld6/images/tes3.jpg" alt="" width="20">
               </figure>
 
               <div class="text">
@@ -294,7 +294,7 @@
   </section> -->
   <section class="brochure">
     <h2>Download Catalogue here</h2>
-    <a class="btn" href="">Download here</a>
+    <a class="btn" href="<?php echo HDOMAIN?>">Download here</a>
   </section>
 
   <?php include("include/footer.php"); ?>

@@ -11,7 +11,7 @@
     <!-- THIS IS FORM -->
 
     <section class="top-banner">
-      <img src="images/details.jpg" alt="">
+      <img src="<?php echo HDOMAIN?>images/details.jpg" alt="">
       <h1>SOLAR ENERGY</h1>
     </section>
 
@@ -19,7 +19,7 @@
       <div class="container">
         <div class="main-d">
           <div class="left">
-            <img src="images/solar.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/solar.jpg" alt="">
           </div>
           <div class="right">
             <h2>SOLAR ENERGY </h2>

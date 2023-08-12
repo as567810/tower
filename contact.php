@@ -11,7 +11,7 @@
   <!-- THIS IS FORM -->
 
   <section class="top-banner">
-    <img src="images/cont.jpg" alt="">
+    <img src="<?php echo HDOMAIN?>images/cont.jpg" alt="">
     <h1>Contact Us</h1>
   </section>
 

@@ -22,7 +22,7 @@
       <div class="container">
         <div class="logo">
           <a href="index.php">
-            <img src="images/logo.png" alt="logo" />
+            <img src="<?php echo HDOMAIN?>images/logo.png" alt="logo" />
             <!-- LOGO -->
           </a>
         </div>
@@ -57,7 +57,7 @@
   <!-- THIS IS FORM -->
 
   <section class="top-banner">
-    <img src="images/details.jpg" alt="">
+    <img src="<?php echo HDOMAIN?>images/details.jpg" alt="">
     <h1>Mobile Tower</h1>
   </section>
 
@@ -65,7 +65,7 @@
         <div class="container">
               <div class="main-d">
                   <div class="left">
-                      <img src="images/img.jpg" alt="">
+                      <img src="<?php echo HDOMAIN?>images/img.jpg" alt="">
                   </div>
                   <div class="right">
                       <h2>Lorem ipsum </h2>
@@ -79,7 +79,7 @@
               </div>
               <div class="main-d">
                 <div class="left">
-                    <img src="images/img.jpg" alt="">
+                    <img src="<?php echo HDOMAIN?>images/img.jpg" alt="">
                 </div>
                 <div class="right">
                     <h2>Lorem ipsum </h2>
@@ -94,7 +94,7 @@
 
             <div class="main-d">
               <div class="left">
-                  <img src="images/img.jpg" alt="">
+                  <img src="<?php echo HDOMAIN?>images/img.jpg" alt="">
               </div>
               <div class="right">
                   <h2>Lorem ipsum </h2>
@@ -108,7 +108,7 @@
           </div>
           <div class="main-d">
             <div class="left">
-                <img src="images/img.jpg" alt="">
+                <img src="<?php echo HDOMAIN?>images/img.jpg" alt="">
             </div>
             <div class="right">
                 <h2>Lorem ipsum </h2>
@@ -127,7 +127,7 @@
     <div class="foot-2">
       <div class="container">
         <div class="inner-foot-2">
-          <figure><a href=""><img src="images/f-logo.png" alt=""></a></figure>
+          <figure><a href=""><img src="<?php echo HDOMAIN?>images/f-logo.png" alt=""></a></figure>
 
           <p>Aman Infra assure the valuable support and interest of all our esteemed customers are kept uppermost in our agenda and look forward to receiving your valuable enquiries and purchase orders.  We are committed to quality, timely delivery, and complete customer satisfaction. This is reflected from the fact that we are regularly getting repeated orders from reputed corporate houses.</p>
           <li>
@@ -185,10 +185,10 @@
       </div>
     </div>
   </footer>
-  <script src="js/jquery.js"></script>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/my_script.js"></script>
+  <script src="<?php echo HDOMAIN?>js/jquery.js"></script>
+  <script src="<?php echo HDOMAIN?>js/swiper-bundle.min.js"></script>
+  <script src="<?php echo HDOMAIN?>js/wow.min.js"></script>
+  <script src="<?php echo HDOMAIN?>js/my_script.js"></script>
   <script>
 
     var swiper = new Swiper(".client-testimonals .awards-slide3", {

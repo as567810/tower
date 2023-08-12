@@ -12,7 +12,7 @@
     <!-- THIS IS FORM -->
 
     <section class="top-banner">
-      <img src="images/details.jpg" alt="">
+      <img src="<?php echo HDOMAIN?>images/details.jpg" alt="">
       <h1>PEB STRUCTURE</h1>
     </section>
 
@@ -20,7 +20,7 @@
       <div class="container">
         <div class="main-d">
           <div class="left">
-            <img src="images/peb.jpg" alt="">
+            <img src="<?php echo HDOMAIN?>images/peb.jpg" alt="">
           </div>
           <div class="right">
             <h2>PEB STRUCTURE </h2>

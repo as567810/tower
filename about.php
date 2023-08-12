@@ -13,7 +13,7 @@
   <!-- THIS IS FORM -->
 
   <section class="top-banner">
-    <img src="images/details.jpg" alt="">
+    <img src="<?php echo HDOMAIN?>images/details.jpg" alt="">
     <h1> About</h1>
   </section>
 
@@ -30,7 +30,7 @@
       </p> -->
       <div class="main-d">
         <div class="left">
-          <img src="images/img.jpg" alt="">
+          <img src="<?php echo HDOMAIN?>images/img.jpg" alt="">
         </div>
         <div class="right">
           <h2>Director Message </h2>
@@ -68,7 +68,7 @@
       </div>
       <div class="main-d">
         <div class="left">
-          <img src="images/img.jpg" alt="">
+          <img src="<?php echo HDOMAIN?>images/img.jpg" alt="">
         </div>
         <div class="right">
 
@@ -86,7 +86,7 @@
 
       <div class="main-d">
         <div class="left">
-          <img src="images/img.jpg" alt="">
+          <img src="<?php echo HDOMAIN?>images/img.jpg" alt="">
         </div>
         <div class="right">
           <h2>Our Vision & Mission
